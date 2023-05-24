@@ -1,0 +1,105 @@
+.nav {
+  width: calc(100% - 200px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 36px;
+  z-index: 3;
+}
+.nav-fixed {
+  position: fixed;
+}
+.nav-text {
+  font-family: "Tomato Grotesk Medium";
+  font-style: normal;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #151515;
+  width: 200px;
+  position: relative;
+  z-index: 3;
+  transition: all 0.3s ease-in-out;
+}
+.nav-text-active {
+  color: white !important;
+}
+.nav-img {
+  font-size: 40px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  z-index: 3;
+}
+.nav-img-active {
+  color: white !important;
+  transform: rotate(45deg) !important;
+}
+.nav-dropdown {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  /* background-image: url(../../Assets/Images/bgTexture.png); */
+  background-color: #151515;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+  opacity: 0;
+  animation: dissolve 1s forwards ease-in-out;
+}
+@keyframes dissolve {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.nav-dropdown-item {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+  width: calc(100% - 240px);
+  border-bottom: 0.5px solid #b9b9b9;
+  padding: 28px 0px;
+}
+.nav-dropdown-img {
+  width: 301.5px;
+  height: 174.6px;
+  object-fit: cover;
+  border-radius: 24px;
+}
+.nav-dropdown-text {
+  font-family: "Tomato Grotesk Medium";
+  font-style: normal;
+  font-size: 130px;
+  line-height: 95%;
+  leading-trim: both;
+  text-edge: cap;
+  display: flex;
+  align-items: flex-end;
+  color: #ececec;
+  cursor: pointer;
+  position: relative;
+}
+.nav-dropdown-text-abs {
+  font-family: "Tomato Grotesk Medium";
+  font-style: italic;
+  font-size: 28px;
+  line-height: 95%;
+  leading-trim: both;
+  text-edge: cap;
+  display: flex;
+  align-items: flex-end;
+  color: #ececec;
+  opacity: 0.75;
+  position: absolute;
+  bottom: -28px;
+  right: 10px;
+}

@@ -1,0 +1,81 @@
+.sp {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 200px;
+  background-color: #ffffff;
+}
+.sp-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 32px;
+}
+.sp-tags {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 24px;
+}
+.sp-title {
+  font-family: "Tomato Grotesk Bold";
+  font-style: normal;
+  font-size: 64px;
+  line-height: 120%;
+  color: #151515;
+}
+.sp-tag-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  font-family: "Tomato Grotesk Medium";
+  font-style: normal;
+  font-size: 18px;
+  line-height: 95%;
+  letter-spacing: 0.04em;
+  color: #151515;
+  width: 260px;
+  height: 46px;
+  border: 1px solid #151515;
+  border-radius: 24px;
+  box-shadow: 0px 4px 7px rgba(0, 0, 0, 0);
+  transition: all ease-out 300ms;
+}
+.sp-tag-flex:hover {
+  font-family: "Tomato Grotesk SemiBold";
+  color: #ffffff;
+  background: #151515;
+  box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+}
+.sp-tag-flex img {
+  transition: all ease-out 300ms;
+}
+.sp-tag-flex:hover img {
+  content: url(../../Assets/Images/arrow2light.svg);
+}
+.sp-images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.sp-image-small {
+  width: 373.8px;
+  height: 187.6px;
+  border: 5px solid rgba(21, 21, 21, 0.5);
+  border-radius: 24px;
+  object-fit: cover;
+}
+.sp-image-big {
+  width: 400.4px;
+  height: 285.6px;
+  border: 7px solid #151515;
+  border-radius: 24px;
+  object-fit: cover;
+}

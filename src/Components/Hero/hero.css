@@ -1,0 +1,139 @@
+.hero {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  background-color: #ffffff;
+  background-image: url(../../Assets/Images/noise.png);
+  background-size: cover;
+  padding: 110px 100px 0px;
+  position: relative;
+}
+.hero-con {
+  width: 100%;
+  background: #151515;
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 16vh 0px;
+}
+.hero-banner {
+  /* background-image: url(../../Assets/Images/heroTexture.png);
+  background-position: center center; */
+  /* background-color: #151515; */
+  background: #D82635;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 44px 0px;
+}
+.hero-banner-text-1 {
+  font-family: "Tomato Grotesk Regular";
+  font-style: normal;
+  font-size: 28px;
+  line-height: 95%;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  opacity: 0.85;
+}
+.hero-banner-text-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: "Tomato Grotesk Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 95%;
+  display: flex;
+  align-items: flex-end;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: #ffffff;
+  opacity: 0.85;
+}
+.hero-banner-text-flex span {
+  padding-bottom: 10px;
+}
+.hero-banner-img {
+  width: 52px;
+  object-fit: cover;
+}
+.hero-banner-text-main {
+  font-family: "Canela-RegularItalic-Trial";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 116px;
+  line-height: 95%;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  opacity: 0.85;
+}
+.hero-tag {
+  border: 1px solid #ffffff;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 32px;
+  gap: 12px;
+  position: absolute;
+  bottom: 32px;
+}
+.hero-tag-circle {
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background: #cd2432;
+}
+.hero-tag-text {
+  font-family: "Tomato Grotesk Medium";
+  font-style: normal;
+  font-size: 18px;
+  line-height: 95%;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: #ffffff;
+  opacity: 0.85;
+}
+.hero-img {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 4.5px solid #151515;
+  cursor: pointer;
+}
+.hero-arrow {
+  animation: sway 1.5s ease-out infinite;
+}
+@keyframes sway {
+  0% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+  25%{
+    transform: translateY(35px);
+    opacity: 0;
+  }
+  50%{
+    transform: translateY(-35px);
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}

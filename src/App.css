@@ -1,38 +1,73 @@
-.App {
-  text-align: center;
+/* Basic Styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+}
+button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+.non-draggable {
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Fonts */
+
+@font-face {
+  font-family: "Tomato Grotesk Medium";
+  src: url("./Assets/Fonts/TomatoGrotesk-Medium.otf") format("opentype");
+}
+@font-face {
+  font-family: "Tomato Grotesk Regular";
+  src: url("./Assets/Fonts/TomatoGrotesk-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "Tomato Grotesk SemiBold";
+  src: url("./Assets/Fonts/TomatoGrotesk-SemiBold.otf") format("opentype");
+}
+@font-face {
+  font-family: "Tomato Grotesk Bold";
+  src: url("./Assets/Fonts/TomatoGrotesk-Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "Canela-ThinItalic-Trial";
+  src: url("./Assets/Fonts/Canela-ThinItalic-Trial.otf") format("opentype");
+}
+@font-face {
+  font-family: "Canela-RegularItalic-Trial";
+  src: url("./Assets/Fonts/Canela-RegularItalic-Trial.otf") format("opentype");
+}
+@font-face {
+  font-family: "Canela-Medium-Trial";
+  src: url("./Assets/Fonts/Canela-Medium-Trial.otf") format("opentype");
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+/* Global Styles */
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+*::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+  background-color: transparent;
 }
-
-.App-link {
-  color: #61dafb;
+*::-webkit-scrollbar-track {
+  width: 5px;
+  height: 5px;
+  background-color: #191919;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+*::-webkit-scrollbar-thumb {
+  width: 5px;
+  height: 5px;
+  background-color: #D82635;
+  border-radius: 8px;
 }

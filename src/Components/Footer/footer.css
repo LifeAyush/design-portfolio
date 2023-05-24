@@ -1,0 +1,143 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  background: #151515;
+  width: 100%;
+}
+.footer-top {
+  background: #ffffff;
+  border-radius: 0px 0px 64px 64px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  padding: 160px 0px 60px 0px;
+}
+.footer-img {
+  height: 195px;
+  object-fit: cover;
+}
+.footer-top-con {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+}
+.footer-top-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 48px;
+}
+.footer-top-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  width: 70px;
+  height: 70px;
+  background: #151515;
+  border-radius: 13.5px;
+  color: white;
+  font-size: 32px;
+}
+.footer-top-mail-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+.footer-top-mail-subtext {
+  font-family: "Tomato Grotesk Medium";
+  font-style: italic;
+  font-size: 20px;
+  line-height: 95%;
+  letter-spacing: 0.04em;
+  color: #151515;
+  opacity: 0.75;
+}
+.footer-top-mail-text-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+}
+.footer-top-mail-text {
+  font-family: "Tomato Grotesk Regular";
+  font-style: normal;
+  font-size: 32px;
+  line-height: 38px;
+  letter-spacing: 0.02em;
+  color: #151515;
+}
+.footer-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 70px 120px 50px;
+}
+.footer-btn {
+  padding: 16px 32px;
+  border: 1px solid #ffffff;
+  border-radius: 24px;
+  font-family: "Tomato Grotesk Medium";
+  font-style: normal;
+  font-size: 24px;
+  line-height: 95%;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  transition: all ease-out 300ms;
+}
+.footer-btn:hover {
+  background: #ffffff;
+  color: #151515;
+}
+.footer-btm-text-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 24px;
+}
+.footer-btm-text {
+  font-family: "Tomato Grotesk Regular";
+  font-style: normal;
+  font-size: 36px;
+  line-height: 95%;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+.footer-arrow-img {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 4.5px solid #ffffff;
+  cursor: pointer;
+}
+.footer-arrow {
+  animation: swayy 1.5s ease-out infinite;
+}
+@keyframes swayy {
+  0% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+  25% {
+    transform: translateY(-35px);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(35px);
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
