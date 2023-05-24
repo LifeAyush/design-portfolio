@@ -6,6 +6,20 @@ import prev3 from "../../Assets/Images/prev3.png";
 import me from "../../Assets/Images/me.png";
 
 const Intro = () => {
+  const Tags = [
+    {
+      img: prev1,
+      link: "https://www.linkedin.com/company/triomics/?originalSubdomain=in",
+    },
+    {
+      img: prev2,
+      link: "https://www.tortoise.pro/",
+    },
+    {
+      img: prev3,
+      link: "http://ienergy.ai/",
+    },
+  ];
   return (
     <div className="intro" id="about">
       <div className="intro-main">
@@ -19,18 +33,44 @@ const Intro = () => {
             </div>
           </div>
           <div className="intro-main-tags">
-            <div className="intro-main-tag">View Resume</div>
-            <div className="intro-main-tag">Linkedin</div>
+            <a
+              href="https://bit.ly/40cQT18"
+              rel="noreferrer"
+              target="_blank"
+              className="intro-main-tag"
+            >
+              View Resume
+            </a>
+            <a
+              href="http://www.linkedin.com/in/rishabh-lodha-b5739a1b9"
+              rel="noreferrer"
+              target="_blank"
+              className="intro-main-tag"
+            >
+              Linkedin
+            </a>
           </div>
         </div>
-        <img src={me} className="intro-main-img non-draggable" alt="Rishabh Lodha" />
+        <img
+          src={me}
+          className="intro-main-img non-draggable"
+          alt="Rishabh Lodha"
+        />
       </div>
       <div className="intro-prev">
         <div className="intro-prev-text">Previously Designed At</div>
         <div className="intro-prev-tags">
-          <img src={prev1} alt="Design" className="intro-prev-tag non-draggable" />
-          <img src={prev2} alt="Design" className="intro-prev-tag non-draggable" />
-          <img src={prev3} alt="Design" className="intro-prev-tag non-draggable" />
+          {Tags.map((tag, id) => {
+            return (
+              <a href={tag.link} target="_blank" rel="noreferrer" key={id}>
+                <img
+                  src={tag.img}
+                  alt="Design"
+                  className="intro-prev-tag non-draggable"
+                />
+              </a>
+            );
+          })}
         </div>
       </div>
     </div>

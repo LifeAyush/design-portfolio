@@ -7,6 +7,8 @@
   gap: 54px;
   padding-top: 54px;
   background-color: #ffffff;
+  background-image: url(../../Assets/Images/bgTexture.png);
+  background-size: cover;
 }
 .por-title-flex {
   display: flex;

@@ -9,19 +9,19 @@ const SideProjects = () => {
   const links = [
     {
       text: "UI Designs",
-      url: "https://www.google.com",
+      url: "https://www.notion.so/885ee43ff97643e09f88b20246a18c1d?v=bf75e31e865f4e6186243e3091b5f17d",
     },
     {
       text: "Graphic Design",
-      url: "https://www.google.com",
+      url: "https://drive.google.com/drive/u/0/folders/1GUa4y5rmczvjGxrV1vUoaOzCrfdISno-",
     },
     {
       text: "Photoshop works",
-      url: "https://www.google.com",
+      url: "https://drive.google.com/drive/u/0/folders/16apqgV6lBrwu9jogE5Q3pH0mQREuoL6Q",
     },
     {
       text: "Motion Design",
-      url: "https://www.google.com",
+      url: "https://drive.google.com/drive/u/0/folders/1yCW1vMu8mm3ql-mOY6RvMkvgOkvU02V1",
     },
   ];
   return (
@@ -34,7 +34,13 @@ const SideProjects = () => {
         <div className="sp-tags">
           {links.map((link, id) => {
             return (
-              <a href={link.url} className="sp-tag-flex" key={id}>
+              <a
+                href={link.url}
+                target="_blank"
+                rel="noreferrer"
+                className="sp-tag-flex"
+                key={id}
+              >
                 <span>{link.text}</span>
                 <img src={arrow2} alt="Design" className="non-draggable" />
               </a>

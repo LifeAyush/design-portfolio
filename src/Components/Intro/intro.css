@@ -8,6 +8,8 @@
   padding: 100px;
   gap: 64px;
   background-color: #ffffff;
+  background-image: url(../../Assets/Images/bgTexture.png);
+  background-size: cover;
 }
 .intro-prev {
   display: flex;

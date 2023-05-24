@@ -6,7 +6,7 @@ import arrow from "../../Assets/Images/arrow.svg";
 
 const Hero = () => {
   return (
-    <div className="hero">
+    <div className="hero" id="main">
       <Nav />
       <div className="hero-con">
         <div className="hero-banner">

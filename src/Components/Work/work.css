@@ -6,6 +6,8 @@
   justify-content: center;
   background-color: #ffffff;
   position: relative;
+  background-image: url(../../Assets/Images/bgTexture.png);
+  background-size: cover;
 }
 .work-next {
   position: absolute;

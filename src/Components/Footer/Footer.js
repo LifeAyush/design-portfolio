@@ -15,22 +15,45 @@ const Footer = () => {
         <img src={foot} className="footer-img non-draggable" alt="Design" />
         <div className="footer-top-con">
           <div className="footer-top-icons">
-            <a href="google.com" className="footer-top-icon">
+            <a
+              href="http://www.linkedin.com/in/rishabh-lodha-b5739a1b9"
+              target="_blank"
+              rel="noreferrer"
+              className="footer-top-icon"
+            >
               <FaLinkedinIn />
             </a>
-            <a href="google.com" className="footer-top-icon">
+            <a
+              href="https://www.instagram.com/rishabh_lodha_08"
+              target="_blank"
+              rel="noreferrer"
+              className="footer-top-icon"
+            >
               <FaInstagram />
             </a>
-            <a href="google.com" className="footer-top-icon">
+            <a
+              href="https://www.behance.net/rishabhlodha1"
+              target="_blank"
+              rel="noreferrer"
+              className="footer-top-icon"
+            >
               <FaBehance />
             </a>
-            <a href="google.com" className="footer-top-icon">
+            <a
+              href="https://twitter.com/RISHABHLODHA18"
+              target="_blank"
+              rel="noreferrer"
+              className="footer-top-icon"
+            >
               <FaTwitter />
             </a>
           </div>
           <div className="footer-top-mail-flex">
             <div className="footer-top-mail-subtext">Or drop me a mail at</div>
-            <div className="footer-top-mail-text-flex">
+            <a
+              href="mailto:rishabh5lodha1234@gmail.com"
+              className="footer-top-mail-text-flex"
+            >
               <img
                 src={mail}
                 alt="Design"
@@ -39,15 +62,20 @@ const Footer = () => {
               <div className="footer-top-mail-text">
                 rishabh5lodha1234@gmail.com
               </div>
-            </div>
+            </a>
           </div>
         </div>
       </div>
       <div className="footer-bottom">
-        <a href="google.com" className="footer-btn">
+        <a
+          href="https://bit.ly/40cQT18"
+          target="_blank"
+          rel="noreferrer"
+          className="footer-btn"
+        >
           View my Resume
         </a>
-        <div className="footer-btm-text-flex">
+        <a href="#main" className="footer-btm-text-flex">
           <div className="footer-btm-text">Back To Top</div>
           <div className="footer-arrow-img">
             <img
@@ -56,7 +84,7 @@ const Footer = () => {
               className="footer-arrow non-draggable"
             />
           </div>
-        </div>
+        </a>
       </div>
     </div>
   );
