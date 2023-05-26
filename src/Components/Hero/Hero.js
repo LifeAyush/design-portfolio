@@ -27,7 +27,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <a href="#intro" className="hero-img">
+      <a href="#about" className="hero-img">
         <img src={arrow} alt="Design" className="hero-arrow non-draggable" />
       </a>
     </div>

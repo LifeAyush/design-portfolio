@@ -9,6 +9,23 @@
   background-image: url(../../Assets/Images/bgTexture.png);
   background-size: cover;
 }
+.work-flex {
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+  padding: 40px 100px;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  overflow-x: scroll;
+}
+.work-flex::-webkit-scrollbar {
+  display: none;
+}
+.work-img {
+  position: absolute;
+}
 .work-next {
   position: absolute;
   bottom: 48px;
@@ -31,7 +48,9 @@
   border-radius: 50%;
   border: 4.5px solid #151515;
   cursor: pointer;
-  transform: rotate(-90deg) ;
+  transform: rotate(-90deg);
+  position: absolute;
+  right: 40px;
 }
 .work-arrow {
   animation: sway 1.5s ease-out infinite;

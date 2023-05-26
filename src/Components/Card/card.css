@@ -1,0 +1,40 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 5px 1px 12px rgba(0, 0, 0, 0.25);
+  border-radius: 24px;
+  width: 600px;
+  height: 600px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.card-img-top {
+  height: 80%;
+  border-bottom-left-radius: 50% 80px;
+  border-bottom-right-radius: 50% 80px;
+}
+.card-body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  padding: 24px 36px;
+}
+.card-tag {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+  background: #ececec;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 42px;
+  font-family: "Tomato Grotesk Bold";
+  font-style: normal;
+  font-size: 24px;
+  line-height: 95%;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #12111e;
+}
