@@ -34,13 +34,13 @@ const Work = () => {
   ];
   return (
     <div className="work" id="projects">
-      <div className="work-flex">
+      {/* <div className="work-flex">
         {projects.map((project, id) => {
           return <Card key={id} data={project} />;
         })}
-      </div>
-      <img src={work} alt="Design" className="work-img non-draggable" />
-      <div className="work-next">Keep scrolling --</div>
+      </div> */}
+      {/* <img src={work} alt="Design" className="work-img non-draggable" />
+      <div className="work-next">Keep scrolling --</div> */}
       <div className="work-arrow-img">
         <img src={arrow} alt="Design" className="work-arrow non-draggable" />
       </div>

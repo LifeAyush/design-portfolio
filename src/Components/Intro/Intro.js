@@ -22,11 +22,13 @@ const Intro = () => {
   ];
   return (
     <div className="intro" id="about">
-      <div className="intro-main">
+      <div className="intro-flex">
         <div className="intro-main-text">
           <div className="intro-main-text-flex">
             <div className="intro-main-text-flex-title">
-              Hey there! 👋 <br />I am a self-taught Product Designer.
+              Hey there! 👋 <br />
+              I am a self-taught <br />
+              Product Designer.
             </div>
             <div className="intro-main-text-flex-subtitle">
               And a final year student at IIT Roorkee.
@@ -51,28 +53,24 @@ const Intro = () => {
             </a>
           </div>
         </div>
-        <img
-          src={me}
-          className="intro-main-img non-draggable"
-          alt="Rishabh Lodha"
-        />
-      </div>
-      <div className="intro-prev">
-        <div className="intro-prev-text">Previously Designed At</div>
-        <div className="intro-prev-tags">
-          {Tags.map((tag, id) => {
-            return (
-              <a href={tag.link} target="_blank" rel="noreferrer" key={id}>
-                <img
-                  src={tag.img}
-                  alt="Design"
-                  className="intro-prev-tag non-draggable"
-                />
-              </a>
-            );
-          })}
+        <div className="intro-prev">
+          <div className="intro-prev-text">Previously Designed At</div>
+          <div className="intro-prev-tags">
+            {Tags.map((tag, id) => {
+              return (
+                <a href={tag.link} target="_blank" rel="noreferrer" key={id}>
+                  <img
+                    src={tag.img}
+                    alt="Design"
+                    className="intro-prev-tag non-draggable"
+                  />
+                </a>
+              );
+            })}
+          </div>
         </div>
       </div>
+      <img src={me} className="non-draggable" alt="Rishabh Lodha" />
     </div>
   );
 };

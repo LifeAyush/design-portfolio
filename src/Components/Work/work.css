@@ -4,10 +4,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
   position: relative;
-  background-image: url(../../Assets/Images/bgTexture.png);
+  background-image: url(../../Assets/Images/workBg.png);
   background-size: cover;
+  background-position: center center;
 }
 .work-flex {
   display: flex;
@@ -40,8 +41,8 @@
   opacity: 0.75;
 }
 .work-arrow-img {
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -50,7 +51,7 @@
   cursor: pointer;
   transform: rotate(-90deg);
   position: absolute;
-  right: 40px;
+  right: 160px;
 }
 .work-arrow {
   animation: sway 1.5s ease-out infinite;

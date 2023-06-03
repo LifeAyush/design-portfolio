@@ -37,7 +37,6 @@ const Nav = () => {
               onClick={() => setNav(!nav)}
             >
               contact
-              <div className="nav-dropdown-text-abs">/connect</div>
             </a>
           </div>
           <div className="nav-dropdown-item" style={{ borderBottom: "none" }}>

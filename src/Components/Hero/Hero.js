@@ -10,9 +10,6 @@ const Hero = () => {
       <Nav />
       <div className="hero-con">
         <div className="hero-banner">
-          <div className="hero-banner-text-1">
-            Welcome to my MVP - Minimum Viable Portfolio
-          </div>
           <div className="hero-banner-text-main">Rishabh Lodha</div>
           <div className="hero-banner-text-flex">
             <span>Product Designer</span>

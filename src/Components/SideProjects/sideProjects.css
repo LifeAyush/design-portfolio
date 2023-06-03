@@ -6,7 +6,8 @@
   justify-content: space-between;
   padding: 0px 200px;
   background-color: #ffffff;
-  background-image: url(../../Assets/Images/bgTexture.png);
+  background-image: url(../../Assets/Images/aboutBg.png);
+  background-position: bottom;
   background-size: cover;
 }
 .sp-text {
@@ -68,16 +69,23 @@
   gap: 30px;
 }
 .sp-image-small {
-  width: 373.8px;
-  height: 187.6px;
-  border: 5px solid rgba(21, 21, 21, 0.5);
-  border-radius: 24px;
+  width: 318.8px;
+  height: 160px;
+  /* border: 5px solid rgba(21, 21, 21, 0.5); */
+  /* border-radius: 24px; */
+  object-fit: cover;
+}
+.sp-image-med{
+  width: 300.968px;
+  height: 160px;
+  /* border: 5px solid rgba(21, 21, 21, 0.5); */
+  /* border-radius: 24px; */
   object-fit: cover;
 }
 .sp-image-big {
-  width: 400.4px;
-  height: 285.6px;
-  border: 7px solid #151515;
-  border-radius: 24px;
+  width: 372px;
+  height: 276.8px;
+  /* border: 7px solid #151515; */
+  /* border-radius: 24px; */
   object-fit: cover;
 }

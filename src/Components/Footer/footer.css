@@ -13,7 +13,7 @@
   justify-content: center;
   gap: 60px;
   padding: 160px 0px 60px 0px;
-  background-image: url(../../Assets/Images/bgTexture.png);
+  background-image: url(../../Assets/Images/porBg.png);
   background-size: cover;
 }
 .footer-img {

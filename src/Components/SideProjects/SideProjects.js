@@ -58,7 +58,7 @@ const SideProjects = () => {
         <img
           src={side3}
           alt="Design"
-          className="sp-image-small non-draggable"
+          className="sp-image-med non-draggable"
         />
       </div>
     </div>

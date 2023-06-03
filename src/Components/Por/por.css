@@ -6,8 +6,8 @@
   justify-content: center;
   gap: 54px;
   padding-top: 54px;
-  background-color: #ffffff;
-  background-image: url(../../Assets/Images/bgTexture.png);
+  /* background-color: #ffffff; */
+  background-image: url(../../Assets/Images/porBg.png);
   background-size: cover;
 }
 .por-title-flex {
@@ -30,7 +30,7 @@
   line-height: 86px;
   letter-spacing: -0.05em;
   text-align: left;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 .por-title span:nth-child(1) {
   font-family: "Tomato Grotesk Bold";

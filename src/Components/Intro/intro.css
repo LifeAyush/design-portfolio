@@ -2,14 +2,18 @@
   width: 100%;
   height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
-  padding: 100px;
-  gap: 64px;
-  background-color: #ffffff;
-  background-image: url(../../Assets/Images/bgTexture.png);
+  gap: 120px;
+  background-image: url(../../Assets/Images/aboutBg.png);
   background-size: cover;
+}
+.intro-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 72px;
 }
 .intro-prev {
   display: flex;
@@ -21,23 +25,20 @@
 .intro-prev-text {
   font-family: "Tomato Grotesk Medium";
   font-style: normal;
-  font-size: 32px;
+  font-size: 24px;
   line-height: 95%;
   letter-spacing: 0.03em;
-  color: #151515;
+  color: #ffffff;
 }
 .intro-prev-tags {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  gap: 30px;
+  gap: 22px;
 }
-.intro-main {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: space-between;
+.intro-prev-tag {
+  object-fit: cover;
+  width: 180px;
 }
 .intro-main-text {
   display: flex;
@@ -55,20 +56,20 @@
 .intro-main-text-flex-title {
   font-family: "Tomato Grotesk Bold";
   font-style: normal;
-  font-size: 64px;
+  font-size: 48px;
   line-height: 120%;
   display: flex;
   align-items: flex-end;
-  color: #151515;
+  color: #ffffff;
 }
 .intro-main-text-flex-subtitle {
   font-family: "Canela-ThinItalic-Trial";
-  font-size: 40px;
+  font-size: 32px;
   line-height: 95%;
   display: flex;
   align-items: flex-end;
   letter-spacing: 0.03em;
-  color: #151515;
+  color: #ffffff;
 }
 .intro-main-tags {
   display: flex;
@@ -78,20 +79,20 @@
   gap: 24px;
 }
 .intro-main-tag {
-  border: 1px solid #151515;
+  border: 1px solid #ffffff;
   border-radius: 24px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  width: 185px;
+  width: 170px;
   height: 45px;
   font-family: "Tomato Grotesk Medium";
   font-style: normal;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 95%;
   letter-spacing: 0.04em;
-  color: #151515;
+  color: #ffffff;
   opacity: 0.85;
   cursor: pointer;
   box-shadow: 0px 4px 7px rgba(0, 0, 0, 0);
@@ -99,7 +100,7 @@
 }
 .intro-main-tag:hover {
   font-family: "Tomato Grotesk SemiBold";
-  color: #ffffff;
-  background: #151515;
+  color: #151515;
+  background: #ffffff;
   box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
 }
