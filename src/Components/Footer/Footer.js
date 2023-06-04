@@ -6,7 +6,7 @@ import { FaInstagram } from "react-icons/fa";
 import { FaBehance } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import mail from "../../Assets/Images/mail.png";
-import arrow from "../../Assets/Images/arrow1light.svg";
+import arrow from "../../Assets/Images/arrow.svg";
 
 const Footer = () => {
   return (
