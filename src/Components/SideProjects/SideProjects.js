@@ -1,6 +1,6 @@
 import React from "react";
 import "./sideProjects.css";
-import arrow2 from "../../Assets/Images/arrow2.svg";
+import arrow2light from "../../Assets/Images/arrow2light.svg";
 import side1 from "../../Assets/Images/side1.png";
 import side2 from "../../Assets/Images/side2.png";
 import side3 from "../../Assets/Images/side3.png";
@@ -42,7 +42,7 @@ const SideProjects = () => {
                 key={id}
               >
                 <span>{link.text}</span>
-                <img src={arrow2} alt="Design" className="non-draggable" />
+                <img src={arrow2light} alt="Design" className="non-draggable" />
               </a>
             );
           })}
@@ -55,11 +55,7 @@ const SideProjects = () => {
           className="sp-image-small non-draggable"
         />
         <img src={side2} alt="Design" className="sp-image-big non-draggable" />
-        <img
-          src={side3}
-          alt="Design"
-          className="sp-image-med non-draggable"
-        />
+        <img src={side3} alt="Design" className="sp-image-med non-draggable" />
       </div>
     </div>
   );

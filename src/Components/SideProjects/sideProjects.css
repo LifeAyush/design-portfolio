@@ -5,7 +5,6 @@
   align-items: center;
   justify-content: space-between;
   padding: 0px 200px;
-  background-color: #ffffff;
   background-image: url(../../Assets/Images/aboutBg.png);
   background-position: bottom;
   background-size: cover;
@@ -29,7 +28,7 @@
   font-style: normal;
   font-size: 64px;
   line-height: 120%;
-  color: #151515;
+  color: #ffffff;
 }
 .sp-tag-flex {
   display: flex;
@@ -42,25 +41,25 @@
   font-size: 18px;
   line-height: 95%;
   letter-spacing: 0.04em;
-  color: #151515;
+  color: #ffffff;
   width: 260px;
   height: 46px;
-  border: 1px solid #151515;
+  border: 1px solid #ffffff;
   border-radius: 24px;
   box-shadow: 0px 4px 7px rgba(0, 0, 0, 0);
   transition: all ease-out 300ms;
 }
 .sp-tag-flex:hover {
   font-family: "Tomato Grotesk SemiBold";
-  color: #ffffff;
-  background: #151515;
+  color: #151515;
+  background: #ffffff;
   box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
 }
 .sp-tag-flex img {
   transition: all ease-out 300ms;
 }
 .sp-tag-flex:hover img {
-  content: url(../../Assets/Images/arrow2light.svg);
+  content: url(../../Assets/Images/arrow2.svg);
 }
 .sp-images {
   display: flex;
@@ -71,21 +70,15 @@
 .sp-image-small {
   width: 318.8px;
   height: 160px;
-  /* border: 5px solid rgba(21, 21, 21, 0.5); */
-  /* border-radius: 24px; */
   object-fit: cover;
 }
-.sp-image-med{
+.sp-image-med {
   width: 300.968px;
   height: 160px;
-  /* border: 5px solid rgba(21, 21, 21, 0.5); */
-  /* border-radius: 24px; */
   object-fit: cover;
 }
 .sp-image-big {
   width: 372px;
   height: 276.8px;
-  /* border: 7px solid #151515; */
-  /* border-radius: 24px; */
   object-fit: cover;
 }
