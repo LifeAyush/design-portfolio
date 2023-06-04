@@ -6,18 +6,21 @@ import star2 from "../../Assets/Images/star2.svg";
 const Por = () => {
   const pors = [
     {
+      id: 1,
       date: "Dec’22  -  Present",
       name: "Design Manager,Cognizance 2023",
       desc: "Successfully organized the annual technical fest of IIT Roorkee with the participation of 10,000+ students.Led a team of 20+ designers to, design and ship the UX/UI of the official website, and guided them in delivering ,multiple graphic and UI design deliverables for branding of the fest.",
       link: "https://www.cognizance.org.in/team",
     },
     {
+      id: 2,
       date: "Jun’22  -  Present",
       name: "Head Of Product and Design, Enactus IITR",
       desc: "Working with a team of 45+ members motivated to work on projects targeting the UN Sustainable Development Goals Responsible for innovating and implementing business ideas from scratch. Enhancing the identity of products and Enactus IITR with design inputs.",
       link: "https://www.instagram.com/p/CgrzQhYsX4v/?hl=en",
     },
     {
+      id: 3,
       date: "Apr’21  -  Present",
       name: "Product Designer,Design Studio IITR",
       desc: "Design Studio is a group of 50+ self-taught designers in IIT Roorkee. Led and executed tasks and projects in graphic, motion, and UI/UX design. Did projects spanning different domains of design for institute entities.",
@@ -36,9 +39,13 @@ const Por = () => {
         </div>
       </div>
       <div className="por-work-flex">
-        {pors.map((por, id) => {
+        {pors.map((por) => {
           return (
-            <div className="por-item" key={id}>
+            <div
+              className="por-item"
+              key={por.id}
+              style={{ borderBottom: por.id === 3 ? "none" : "" }}
+            >
               <div className="por-item-date-flex">
                 <img
                   src={star2}
