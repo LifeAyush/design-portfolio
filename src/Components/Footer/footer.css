@@ -144,3 +144,15 @@
     transform: translateY(0px);
   }
 }
+.footer-btm-stle-text {
+  background-image: linear-gradient(to bottom, #15151512, #151515);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-family: "Tomato Grotesk";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 144px;
+  line-height: 173px;
+  letter-spacing: 0.04em;
+}

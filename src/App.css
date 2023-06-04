@@ -78,7 +78,6 @@ button {
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
   height: 100vh;
-  scroll-behavior: auto;
   overflow-x: hidden;
 }
 .slide {

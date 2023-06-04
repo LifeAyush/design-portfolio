@@ -75,6 +75,7 @@ const Footer = () => {
         >
           View my Resume
         </a>
+        <div className="footer-btm-stle-text">RKL</div>
         <a href="#main" className="footer-btm-text-flex">
           <div className="footer-btm-text">Back To Top</div>
           <div className="footer-arrow-img">
