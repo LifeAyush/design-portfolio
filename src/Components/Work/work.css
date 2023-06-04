@@ -4,73 +4,27 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  /* background-color: #ffffff; */
-  position: relative;
   background-image: url(../../Assets/Images/workBg.png);
   background-size: cover;
   background-position: center center;
+  overflow: hidden;
 }
 .work-flex {
   display: flex;
   flex-direction: row;
-  gap: 80px;
-  padding: 40px 100px;
-  align-items: center;
-  position: relative;
-  z-index: 1;
-  width: 100%;
-  overflow-x: scroll;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 48px;
+  height: 100%;
+  padding-top: 100vh;
+  overflow-y: scroll;
 }
 .work-flex::-webkit-scrollbar {
   display: none;
 }
 .work-img {
-  position: absolute;
-}
-.work-next {
-  position: absolute;
-  bottom: 48px;
-  left: 100px;
-  font-family: "Tomato Grotesk Regular";
-  font-style: normal;
-  font-size: 24px;
-  line-height: 95%;
-  letter-spacing: 0.25em;
-  text-transform: uppercase;
-  color: #151515;
-  opacity: 0.75;
-}
-.work-arrow-img {
-  width: 50px;
-  height: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  border: 4.5px solid #151515;
-  cursor: pointer;
-  transform: rotate(-90deg);
-  position: absolute;
-  right: 160px;
-}
-.work-arrow {
-  animation: sway 1.5s ease-out infinite;
-}
-@keyframes sway {
-  0% {
-    transform: translateY(0px);
-    opacity: 1;
-  }
-  25% {
-    transform: translateY(35px);
-    opacity: 0;
-  }
-  50% {
-    transform: translateY(-35px);
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0px);
-  }
+  width: 656px;
+  object-fit: cover;
+  box-shadow: 5px 1px 12px rgba(0, 0, 0, 0.25);
+  border-radius: 24px;
 }
