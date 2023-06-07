@@ -82,3 +82,64 @@
   height: 276.8px;
   object-fit: cover;
 }
+@media screen and (max-width: 1200px) {
+  .sp {
+    padding: 0px 120px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .sp {
+    padding: 0px 60px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .sp {
+    flex-direction: column-reverse;
+    height: auto;
+    gap: 60px;
+    padding: 100px 0px;
+    background-image: url(../../Assets/Images/porBg.png);
+  }
+  .sp-images {
+    flex-direction: row;
+  }
+  .sp-text {
+    align-items: center;
+  }
+  .sp-title {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 600px) {
+  .sp-image-med {
+    height: 276.8px;
+    width: auto;
+  }
+  .sp-image-small {
+    height: 276.8px;
+    width: auto;
+  }
+}
+@media screen and (max-width: 500px) {
+  .sp-image-med,
+  .sp-image-small,
+  .sp-image-big {
+    height: 200px;
+  }
+  .sp-image-big{
+    width: auto;
+  }
+  .sp-title{
+    font-size: 44px;
+  }
+}
+@media screen and (max-width:400px){
+  .sp-image-med,
+  .sp-image-small,
+  .sp-image-big {
+    height: 180px;
+  }
+  .sp-title{
+    font-size: 38px;
+  }
+}
