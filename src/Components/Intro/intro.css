@@ -104,3 +104,63 @@
   background: #ffffff;
   box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
 }
+@media screen and (max-width: 1100px) {
+  .intro {
+    gap: 40px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .intro,
+  .intro-prev-tags {
+    flex-direction: column;
+  }
+  .intro {
+    height: auto;
+    padding: 60px 0px 400px 0px;
+    position: relative;
+    background-image: url(../../Assets/Images/aboutBgMob.png);
+    background-size: cover;
+    background-position: center center;
+  }
+  .intro-main-text,
+  .intro-main-text-flex,
+  .intro-prev {
+    align-items: center;
+  }
+  .intro-prev {
+    position: absolute;
+    bottom: 60px;
+  }
+  .intro-main-text-flex-title {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 500px) {
+  .intro-main-text-flex-title {
+    font-size: 36px;
+  }
+  .intro-main-text-flex-subtitle {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .intro-main-text-flex-title {
+    font-size: 32px;
+  }
+  .intro-main-text-flex-subtitle {
+    font-size: 20px;
+  }
+  .intro-imng {
+    width: 270px;
+  }
+  .intro-main-tags {
+    gap: 12px;
+  }
+  .intro {
+    padding: 60px 0px 360px 0px;
+  }
+  .intro-main-tag {
+    width: 150px;
+    height: 38px;
+  }
+}

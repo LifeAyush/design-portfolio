@@ -70,7 +70,7 @@ const Intro = () => {
           </div>
         </div>
       </div>
-      <img src={me} className="non-draggable" alt="Rishabh Lodha" />
+      <img src={me} className="intro-imng non-draggable" alt="Rishabh Lodha" />
     </div>
   );
 };
