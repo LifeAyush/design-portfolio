@@ -17,7 +17,10 @@
 }
 .footer-img {
   height: 195px;
-  object-fit: cover;
+  width: 546px;
+  background-image: url(../../Assets/Images/foot.png);
+  background-size: cover;
+  background-position: center center;
 }
 .footer-top-con {
   display: flex;
@@ -155,4 +158,112 @@
   font-size: 144px;
   line-height: 173px;
   letter-spacing: 0.04em;
+}
+@media screen and (max-width: 1220px) {
+  .footer-img {
+    height: 120px;
+    width: 336px;
+  }
+  .footer-top-icon {
+    height: 50px;
+    width: 50px;
+  }
+  .footer-top-mail-text {
+    font-size: 24px;
+  }
+  .footer-bottom {
+    padding: 40px 20px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .footer-btm-stle-text {
+    font-size: 100px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .footer-top {
+    flex-direction: column;
+    padding-top: 44px;
+    gap: 40px;
+  }
+  .footer-img {
+    width: 578px;
+    height: 116px;
+    background-image: url(../../Assets/Images/footMob.png);
+  }
+  .footer-top-icon {
+    height: 70px;
+    width: 70px;
+  }
+  .footer-bottom {
+    flex-direction: column;
+    gap: 32px;
+  }
+  .footer-btm-stle-text {
+    display: none;
+  }
+  .footer-btn {
+    padding: 24px 40px;
+    font-size: 32px;
+  }
+  .footer {
+    background-image: url(../../Assets/Images/footerBg.png);
+    background-size: cover;
+    background-position: bottom center;
+  }
+  .footer-bottom {
+    padding: 24px 0px 200px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .footer-img {
+    width: 433.5px;
+    height: 87px;
+  }
+  .footer-top {
+    border-radius: 0px 0px 32px 32px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .footer-top {
+    border-radius: 0px 0px 16px 16px;
+  }
+  .footer-top-icon {
+    height: 64px;
+    width: 64px;
+  }
+  .footer-top-mail-text {
+    font-size: 22px;
+  }
+  .footer-top-mail-img {
+    width: 24px;
+  }
+  .footer-top-mail-subtext {
+    font-size: 20px;
+  }
+  .footer-img {
+    width: 289px;
+    height: 56px;
+  }
+  .footer-top-icons {
+    gap: 32px;
+  }
+  .footer-btn {
+    padding: 16px 32px;
+    font-size: 24px;
+  }
+  .footer-btm-text-flex {
+    gap: 16px;
+  }
+  .footer-btm-text {
+    font-size: 24px;
+  }
+  .footer-arrow-img{
+    height: 40px;
+    width: 40px;
+  }
+  .footer-bottom {
+    padding: 32px 0px 160px;
+  }
 }

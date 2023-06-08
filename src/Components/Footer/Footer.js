@@ -12,7 +12,7 @@ const Footer = () => {
   return (
     <div className="footer" id="contact">
       <div className="footer-top">
-        <img src={foot} className="footer-img non-draggable" alt="Design" />
+        <div className="footer-img" />
         <div className="footer-top-con">
           <div className="footer-top-icons">
             <a
