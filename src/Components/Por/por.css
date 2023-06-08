@@ -7,7 +7,11 @@
   justify-content: center;
   gap: 54px;
   background-image: url(../../Assets/Images/porBg.png);
+  background-position: center center;
   background-size: cover;
+}
+.por-item-img2 {
+  display: none;
 }
 .por-title-flex {
   display: flex;
@@ -119,4 +123,77 @@
 .por-item-arrow {
   width: 12px;
   transform: rotate(-90deg);
+}
+@media screen and (max-width: 1150px) {
+  .por-title span:nth-child(1),
+  .por-title span:nth-child(2) {
+    font-size: 60px;
+  }
+  .por-subtitle {
+    font-size: 18px;
+  }
+  .por-item-date {
+    font-size: 36px;
+  }
+  .por-item {
+    gap: 44px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .por-item {
+    flex-direction: column;
+    gap: 16px;
+  }
+  .por {
+    height: auto;
+    padding: 60px 0px;
+  }
+  .por-item-name {
+    font-family: "Canela-Medium-Trial";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+  }
+  .por-item-date-flex {
+    display: none;
+  }
+  .por-item-img2 {
+    display: flex;
+  }
+}
+@media screen and (max-width: 600px) {
+  .por-title span:nth-child(1),
+  .por-title span:nth-child(2) {
+    font-size: 48px;
+  }
+  .por-subtitle {
+    font-size: 16px;
+  }
+  .por-item-name-flex {
+    width: calc(100vw - 48px);
+  }
+}
+@media screen and (max-width: 500px) {
+  .por-item-name-flex {
+    width: calc(100vw - 40px);
+  }
+  .por {
+    gap: 40px;
+  }
+  .por-item-para {
+    font-size: 14px;
+  }
+  .por-title span:nth-child(1),
+  .por-title span:nth-child(2) {
+    font-size: 32px;
+  }
+  .por-subtitle {
+    width: calc(100vw - 80px);
+    text-align: center;
+  }
 }
