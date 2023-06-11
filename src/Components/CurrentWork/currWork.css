@@ -111,16 +111,23 @@
   }
 }
 @media screen and (max-width: 768px) {
+  .curwork {
+    position: relative;
+    justify-content: center;
+  }
   .curwork-img {
     border: 2px solid #151515;
     width: calc(100vw - 120px);
+    position: absolute;
+  }
+  .curwork-text {
+    gap: 360px;
+    padding-top: 140px;
   }
   .curwork-title {
-    font-size: 32px;
+    font-size: 36px;
   }
-  .currwork-para {
-    font-size: 24px;
-  }
+  .currwork-para,
   .curwork-line2-span {
     font-size: 24px;
   }
@@ -131,32 +138,43 @@
     padding: 0px;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
   .curwork-img {
     width: calc(100vw - 60px);
-  }
-  .curwork-title {
-    font-size: 18px;
-  }
-  .currwork-para {
-    font-size: 18px;
-  }
-  .curwork-line2-span {
-    font-size: 18px;
   }
   .curwork-img2 {
     width: 60px;
     object-fit: cover;
   }
+  .curwork-text {
+    gap: 320px;
+    padding-top: 120px;
+  }
+  .curwork-title {
+    font-size: 30px;
+  }
+  .currwork-para,
+  .curwork-line2-span {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .curwork-text {
+    gap: 280px;
+    padding-top: 120px;
+  }
 }
 @media screen and (max-width: 400px) {
-  .curwork-title {
-    font-size: 16px;
+  .curwork-img {
+    width: calc(100vw - 32px);
   }
-  .currwork-para {
-    font-size: 16px;
+  .curwork-text {
+    gap: 240px;
+    padding-top: 120px;
   }
+  .curwork-title,
+  .currwork-para,
   .curwork-line2-span {
-    font-size: 16px;
+    font-size: 18px;
   }
 }
