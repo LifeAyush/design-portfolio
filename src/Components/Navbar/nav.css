@@ -142,9 +142,15 @@
   }
 }
 @media screen and (max-width: 600px) {
+  .nav-text-1 {
+    font-size: 22px;
+  }
+  .nav-img {
+    font-size: 30px;
+  }
   .nav {
     top: 24px;
-    width: calc(100vw - 40px);
+    width: calc(100vw - 60px);
   }
   .nav-dropdown-img {
     width: 120px;

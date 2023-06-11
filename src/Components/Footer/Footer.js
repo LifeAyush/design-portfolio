@@ -1,6 +1,6 @@
 import React from "react";
 import "./footer.css";
-import foot from "../../Assets/Images/foot.png";
+import footbt from "../../Assets/Images/btm-ft.png";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaBehance } from "react-icons/fa";
@@ -75,7 +75,7 @@ const Footer = () => {
         >
           View my Resume
         </a>
-        <div className="footer-btm-stle-text">RKL</div>
+        <img src={footbt} alt="Design" className="footer-btm-stle-text" />
         <a href="#main" className="footer-btm-text-flex">
           <div className="footer-btm-text">Back To Top</div>
           <div className="footer-arrow-img">

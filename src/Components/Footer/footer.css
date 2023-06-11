@@ -84,12 +84,12 @@
   padding: 70px 120px 50px;
 }
 .footer-btn {
-  padding: 16px 32px;
+  padding: 12px 24px;
   border: 1px solid #151515;
   border-radius: 24px;
   font-family: "Tomato Grotesk Medium";
   font-style: normal;
-  font-size: 24px;
+  font-size: 22px;
   line-height: 95%;
   letter-spacing: 0.04em;
   color: #151515;
@@ -109,25 +109,26 @@
 .footer-btm-text {
   font-family: "Tomato Grotesk Regular";
   font-style: normal;
-  font-size: 36px;
+  font-size: 28px;
   line-height: 95%;
   letter-spacing: 0.04em;
   text-transform: capitalize;
   color: #151515;
 }
 .footer-arrow-img {
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  border: 4.5px solid #151515;
+  border: 3px solid #151515;
   cursor: pointer;
   transform: rotate(180deg);
 }
 .footer-arrow {
   animation: swayy 1.5s ease-out infinite;
+  width: 18px;
 }
 @keyframes swayy {
   0% {
@@ -148,16 +149,7 @@
   }
 }
 .footer-btm-stle-text {
-  background-image: linear-gradient(to bottom, #15151512, #151515);
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-  font-family: "Tomato Grotesk";
-  font-style: normal;
-  font-weight: 800;
-  font-size: 144px;
-  line-height: 173px;
-  letter-spacing: 0.04em;
+  object-fit: cover;
 }
 @media screen and (max-width: 1220px) {
   .footer-img {
@@ -229,29 +221,32 @@
   .footer-top {
     border-radius: 0px 0px 16px 16px;
   }
+  .footer-top-con {
+    align-items: center;
+  }
   .footer-top-icon {
-    height: 64px;
-    width: 64px;
+    height: 48px;
+    width: 48px;
   }
   .footer-top-mail-text {
-    font-size: 22px;
+    font-size: 18px;
   }
   .footer-top-mail-img {
     width: 24px;
   }
   .footer-top-mail-subtext {
-    font-size: 20px;
+    font-size: 18px;
   }
   .footer-img {
     width: 289px;
     height: 56px;
   }
   .footer-top-icons {
-    gap: 32px;
+    gap: 24px;
   }
   .footer-btn {
     padding: 16px 32px;
-    font-size: 24px;
+    font-size: 18px;
   }
   .footer-btm-text-flex {
     gap: 16px;
@@ -259,7 +254,7 @@
   .footer-btm-text {
     font-size: 24px;
   }
-  .footer-arrow-img{
+  .footer-arrow-img {
     height: 40px;
     width: 40px;
   }
