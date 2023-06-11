@@ -25,7 +25,7 @@ const SideProjects = () => {
     },
   ];
   return (
-    <div className="sp">
+    <div className="sp" id="exWork">
       <div className="sp-text">
         <div className="sp-title">
           See more of <br />

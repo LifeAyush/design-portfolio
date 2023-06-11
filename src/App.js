@@ -1,4 +1,5 @@
 import "./App.css";
+import CurrentWork from "./Components/CurrentWork/CurrentWork";
 import Footer from "./Components/Footer/Footer";
 import Hero from "./Components/Hero/Hero";
 import Intro from "./Components/Intro/Intro";
@@ -17,6 +18,9 @@ function App() {
       </div>
       <div className="slide">
         <Work />
+      </div>
+      <div className="slide">
+        <CurrentWork />
       </div>
       <div className="slide">
         <SideProjects />
